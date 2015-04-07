@@ -1,4 +1,4 @@
-package framework.cqrs.evenementStore;
+package java.framework.cqrs.evenementStore;
 
 import java.util.UUID;
 

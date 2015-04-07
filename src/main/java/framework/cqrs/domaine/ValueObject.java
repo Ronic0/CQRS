@@ -1,4 +1,4 @@
-package framework.cqrs.domaine;
+package java.framework.cqrs.domaine;
 
 import java.io.Serializable;
 

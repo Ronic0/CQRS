@@ -1,15 +1,14 @@
-package framework.cqrs.dao;
+package java.framework.cqrs.dao;
 
-import framework.cqrs.bus.Bus;
-import framework.cqrs.bus.BusSynchronization;
-import framework.cqrs.domaine.AggregateRoot;
-import framework.cqrs.domaine.Evenement;
-import framework.cqrs.domaine.IdVersionnee;
-import framework.cqrs.domaine.Repository;
-import framework.cqrs.evenementStore.EvenementCollecteur;
-import framework.cqrs.evenementStore.EvenementSource;
-import framework.cqrs.evenementStore.EvenementStore;
-
+import java.framework.cqrs.bus.Bus;
+import java.framework.cqrs.bus.BusSynchronization;
+import java.framework.cqrs.domaine.AggregateRoot;
+import java.framework.cqrs.domaine.Evenement;
+import java.framework.cqrs.domaine.IdVersionnee;
+import java.framework.cqrs.domaine.Repository;
+import java.framework.cqrs.evenementStore.EvenementCollecteur;
+import java.framework.cqrs.evenementStore.EvenementSource;
+import java.framework.cqrs.evenementStore.EvenementStore;
 import java.lang.reflect.Constructor;
 import java.lang.reflect.InvocationTargetException;
 import java.util.*;

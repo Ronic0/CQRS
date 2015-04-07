@@ -1,4 +1,4 @@
-package framework.cqrs.bus;
+package java.framework.cqrs.bus;
 
 import com.google.common.base.MoreObjects;
 import com.google.common.collect.Iterables;

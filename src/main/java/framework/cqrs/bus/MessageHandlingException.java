@@ -1,4 +1,4 @@
-package framework.cqrs.bus;
+package java.framework.cqrs.bus;
 
 /**
  * Created by Nicolas Caline on 07-04-15.

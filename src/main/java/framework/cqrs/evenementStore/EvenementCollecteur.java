@@ -1,4 +1,4 @@
-package framework.cqrs.evenementStore;
+package java.framework.cqrs.evenementStore;
 
 /**
  * Created by Nicolas Caline on 07-04-15.

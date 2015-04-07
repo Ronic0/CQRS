@@ -1,9 +1,9 @@
-package framework.cqrs.evenementStore.enmemoire;
+package java.framework.cqrs.evenementStore.enmemoire;
 
-import framework.cqrs.evenementStore.EvenementCollecteur;
-import framework.cqrs.evenementStore.EvenementSource;
-import framework.cqrs.evenementStore.EvenementStore;
 
+import java.framework.cqrs.evenementStore.EvenementCollecteur;
+import java.framework.cqrs.evenementStore.EvenementSource;
+import java.framework.cqrs.evenementStore.EvenementStore;
 import java.util.*;
 
 /**
