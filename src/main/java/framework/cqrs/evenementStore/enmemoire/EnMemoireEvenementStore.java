@@ -35,7 +35,7 @@ public class EnMemoireEvenementStore<E> implements EvenementStore<E> {
         fluxEvenements.envoyerEvenementsAvecVersionAuCollecteur(fluxEvenements.getVersion(), collecteur);
     }
 
-    public void cghargerEvenementsDepuisLaVersionAttendueDuFlux(UUID fluxId, long versionAttendue, EvenementCollecteur<E> collecteur) {
+    public void chargerEvenementsDepuisLaVersionAttendueDuFlux(UUID fluxId, long versionAttendue, EvenementCollecteur<E> collecteur) {
         FluxEvenements<E> fluxEvenements = getFluxEvenements(fluxId);
         if (fluxEvenements.getVersion() != versionAttendue) {
         }
